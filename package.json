@@ -5,7 +5,7 @@
   "description": "Web interface for migrating MERC from WTT to NTT on Base.",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -20,5 +20,8 @@
     "autoprefixer": "^10.4.14",
     "vite": "^4.4.0",
     "typescript": "^5.2.0"
-  }
+  },
+  "engines": {
+  "node": ">=18"
+}
 }
